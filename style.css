@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #000;  /* page background black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #111;       /* main box black/dark gray */
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #fff;   /* white text */
+}
+
+p {
+    margin: 5px 0 20px 0;
+    color: #ccc;   /* light gray subtext */
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px 25px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Social Buttons with real brand colors */
+.instagram {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+.instagram:hover {
+    filter: brightness(1.1);
+}
+
+.x {
+    background: #1DA1F2;
+}
+.x:hover {
+    filter: brightness(1.1);
+}
+
+.linkedin {
+    background: #0077B5;
+}
+.linkedin:hover {
+    filter: brightness(1.1);
+}
+
+.github {
+    background: #333;
+}
+.github:hover {
+    filter: brightness(1.1);
+}
